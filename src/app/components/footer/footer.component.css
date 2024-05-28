@@ -1,0 +1,61 @@
+/* Estilos generales */
+div {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #0d0f10;
+  }
+  
+  /* Contenedor */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Filas y columnas */
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .col-auto {
+    margin: 10px 0;
+  }
+  
+  /* Enlaces */
+  a.small {
+    color: #166ac3;
+    text-decoration: none;
+  }
+  
+  a.small:hover {
+    text-decoration: underline;
+  }
+  
+  /* Espaciado de los puntos medios */
+  .mx-1 {
+    margin: 0 5px;
+  }
+  
+  /* Texto pequeño */
+  .small {
+    font-size: 0.875rem;
+    margin: 0;
+  }
+  
+  
+  @media (max-width: 576px) {
+    .row {
+      flex-direction: column;
+      text-align: center;
+    }
+    
+    .col-auto {
+      margin: 5px 0;
+    }
+  }
+  
